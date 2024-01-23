@@ -1,0 +1,45 @@
+
+.table__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bottom_buttons_container{
+    display: flex;
+    gap:0.5rem;
+    align-items: center;
+    margin: 1rem 1px;
+    justify-content: center;
+}
+
+.bottom_buttons{
+    padding: 8px 16px;
+    background-color: rgb(238, 26, 61);
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.remove_button{
+    padding: 3px 6px;
+    background-color: rgb(250, 1, 1);
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+ td,th{
+    border: 1px solid #dddddd;
+    padding: 8px;
+}

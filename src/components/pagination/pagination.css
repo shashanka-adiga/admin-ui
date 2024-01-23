@@ -1,0 +1,22 @@
+
+
+
+.active{
+    background-color: rgb(101, 101, 211);
+}
+
+.pagination__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__button button{
+   border: none;
+   border-radius: 50%;
+   padding: 4px 8px;
+   margin:2px;
+   font-family: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
